@@ -22,7 +22,7 @@ An automated, bash-based provisioning script to rapidly deploy Oracle Database 2
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/yourusername/oracle-db-auto-deploy.git](https://github.com/yourusername/oracle-db-auto-deploy.git)
+   git clone [https://github.com/Preetampd/oracle-db-auto-deploy.git](https://github.com/yourusername/oracle-db-auto-deploy.git)
    cd oracle-db-auto-deploy
    chmod +x deploy_oracle.sh
 2. Run the script as root:
