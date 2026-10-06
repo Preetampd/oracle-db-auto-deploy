@@ -1,0 +1,6 @@
+# Ignore sensitive files and environment variables
+.env
+*.rsp
+*.log
+*.zip
+/softwares/
