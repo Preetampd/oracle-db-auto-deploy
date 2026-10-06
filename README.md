@@ -28,7 +28,8 @@ An automated, bash-based provisioning script to rapidly deploy Oracle Database 2
 2. Run the script as root:
    ```bash
    sudo ./deploy_oracle.sh
-   You will be prompted to enter paths, IP addresses, and secure passwords. Alternatively, you can pre-set environment variables to bypass prompts for CI/CD pipelines.
+  
+You will be prompted to enter paths, IP addresses, and secure passwords. Alternatively, you can pre-set environment variables to bypass prompts for CI/CD pipelines.
 
 Configuration Guidance:
 
