@@ -43,7 +43,10 @@ ZIP_SOURCE: Path to the Oracle installer zip.
 LISTENER_IP: The IP bound to the Oracle Listener.
 
 Security Considerations:
+
 No Hardcoded Passwords: The script prompts for sensitive passwords at runtime.
+
 Response Files: Temporary installation files containing sensitive data are securely deleted after use.
+
 Production Warning: This script skips prerequisite checks (-ignorePrereqFailure). For production, ensure OS tuning (sysctl.conf, limits.conf) is managed via Ansible or Puppet.
    
