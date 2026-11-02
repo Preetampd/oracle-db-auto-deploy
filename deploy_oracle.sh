@@ -9,7 +9,7 @@ export ORACLE_BASE=${ORACLE_BASE:-/u01/app/oracle}
 export ORACLE_HOME=${ORACLE_HOME:-$ORACLE_BASE/product/23.26.0/dbhome_1}
 export INVENTORY=${INVENTORY:-/u01/app/oraInventory}
 export ORACLE_SID=${ORACLE_SID:-orcl}
-export ZIP_SOURCE=${ZIP_SOURCE:-/softwares/23.26.0.0.0/LINUX.X64_1924000_db_home.zip}
+export ZIP_SOURCE=${ZIP_SOURCE:-/softwares/Oracle26ai-Softwares/LINUX.X64_2326100_db_home.zip}
 
 # Dynamically determine IP or allow user override
 DEFAULT_IP=$(hostname -I | awk '{print $1}')
